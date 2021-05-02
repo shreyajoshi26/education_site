@@ -1,0 +1,7 @@
+python manage.py flush
+python manage.py loaddata data.json  -e contenttypes
+
+
+
+
+python manage.py dumpdata >> data.json
